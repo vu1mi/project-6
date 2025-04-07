@@ -98,7 +98,8 @@ button {
   z-index: -1;
   overflow: hidden;
   left: 0px;
-  top: 80px;
+  /* bottom: 0; */
+  top: 133px;
 }
 .header-body::after {
   content: url(/icon/head-derc-2.svg);
@@ -111,6 +112,7 @@ button {
 .head-body-img {
   width: 514px;
   height: 705px;
+  margin-top: 49px;
   flex-shrink: 0;
 }
 .head-body-title {
@@ -168,6 +170,7 @@ button {
 .head-body-follow {
   display: flex;
   margin-top: 104px;
+  margin-bottom: 43px;
   align-items: center;
 }
 .follow {
@@ -202,7 +205,7 @@ button {
   display: block;
   width: 86px;
   height: 2px;
-  border-radius: ;
+  /* border-radius: ; */
   background-color: #5d3bee;
 }
 
@@ -251,6 +254,7 @@ button {
 /* product */
 .product {
   margin-top: 133px;
+  margin-bottom: 140px;
 }
 .product-head {
   text-align: center;
@@ -278,8 +282,8 @@ button {
   width: 285px;
 }
 .product-icon {
-  width: 74px;
-  height: 74px;
+  width: 38px;
+  height: 38px;
 }
 /* .col {
   border: 1px solid #000;
@@ -292,4 +296,103 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.product-item-title {
+  margin-top: 22px;
+}
+.product-item-dersc {
+  margin-top: 15px;
+}
+.product-item {
+  background: #fbfaff;
+  padding: 33px 0 32px 43px;
+}
+
+/* project */
+
+.project {
+  background: #5d3bee;
+  padding: 86px 0;
+}
+.project-title {
+  /* width: 468px; */
+  color: #fff;
+  font-size: 5.6rem;
+  font-weight: 500;
+  line-height: 1.17857; /* 117.857% */
+  letter-spacing: -2.24px;
+}
+.project-dersc {
+  margin-top: 31px;
+  color: #fff;
+}
+
+.project-row-3 {
+  margin-top: 30px;
+}
+.project-row-2 {
+  margin-top: 70px;
+}
+.project-item {
+  position: relative;
+  display: flex;
+  padding: 24px 23px 23px 34px;
+  background-color: #fff;
+  z-index: 1;
+}
+.project-ex {
+  width: 246px;
+  height: 187px;
+  flex-shrink: 0;
+  margin-left: auto;
+}
+.project-name {
+  color: #080415;
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 1.25; /* 125% */
+  letter-spacing: -1.28px;
+}
+.project-item-dersc {
+  margin-top: 10px;
+  width: 220px;
+  color: #51586a;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4375; /* 143.75% */
+}
+.project-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #080415;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.6667; /* 166.667% */
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.project-item::before {
+  content: url(/images/project-decor.svg);
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+.project-all {
+  display: inline-block;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 170px;
+  height: 62px;
+  background: #fff;
+  color: #080415;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.6667; /* 166.667% */
+  border: none;
 }

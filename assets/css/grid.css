@@ -1,4 +1,4 @@
-.containers,
+.container,
 .container-fluid {
   --column-size: 12;
   --spacer: 10px;
@@ -17,8 +17,8 @@
 }
 .col {
   flex: 1 0;
-  margin-left: calc(-1 * var(--spacer) / 2);
-  margin-right: calc(-1 * var(--spacer) / 2);
+  /* margin-left: calc(-1 * var(--spacer) / 2);
+  margin-right: calc(-1 * var(--spacer) / 2); */
 }
 .g-0 {
   --spacer: 0;
@@ -269,7 +269,7 @@
   }
 }
 @media (min-width: 768px) {
-  .containers {
+  .container {
     --spacer: 20px;
     max-width: 720px;
   }
@@ -391,7 +391,7 @@
   }
 }
 @media (min-width: 992px) {
-  .containers {
+  .container {
     --spacer: 24px;
     max-width: 960px;
   }
@@ -512,7 +512,7 @@
   }
 }
 @media (min-width: 1200px) {
-  .containers {
+  .container {
     --spacer: 30px;
     max-width: 1170px;
   }
