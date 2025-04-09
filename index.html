@@ -93,6 +93,7 @@
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/grid.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
   </head>
   <body>
     <header class="header">
@@ -164,11 +165,54 @@
       </div>
     </header>
 
+    <!-- header mobile -->
+    <header class="header-mobile">
+      <div class="container">
+        <div class="head-top">
+          <img src="./images/face-web.png" alt="" class="icon-logo" />
+          <div class="head-top-r">
+            <img
+              src="./images/header-top-icon.png"
+              alt=""
+              class="header-top-icon"
+            />
+            <label for=""
+              ><img src="./images/menu.svg" alt="" class="menu" />
+            </label>
+            <input type="checkbox" name="" id="menu" class="check-menu" />
+          </div>
+        </div>
+        <div class="header-underline"></div>
+        <div class="header-body">
+          <h1 class="head-title">An Interactive Designer</h1>
+          <div class="head-dersc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna,
+            non nisl tincidunt ut elementum turpis.
+          </div>
+          <div class="head-active">
+            <button class="head-btn">Book a Call</button>
+            <a href="" class="head-link">My Works</a>
+          </div>
+        </div>
+        <div class="head-footer">
+          <p class="head-follow">Follow me on:</p>
+          <img src="./images/icon-follow-1.svg" alt="" class="head-item" />
+          <img src="./images/icon-follow-2.svg" alt="" class="head-item" />
+          <img src="./images/icon-follow-3.svg" alt="" class="head-item" />
+        </div>
+        <figure class="head-img">
+          <img src="./icon/head-derc.svg" alt="" class="decor-img" />
+          <img src="./images/head-body.png" alt="" class="main-img" />
+        </figure>
+      </div>
+    </header>
+
     <!-- media -->
     <div class="media">
       <div class="container">
         <div class="media-content">
           <h2 class="media-title">Meet my recent clients</h2>
+          <h2 class="media-title-mobile">Meet my <br />recent clients</h2>
           <div class="media-list">
             <div class="media-row">
               <div class="media-item">
@@ -215,14 +259,14 @@
     <div class="product">
       <div class="container">
         <div class="product-head">
-          <h2 class="product-title">Specialities</h2>
+          <h2 class="product-title title-comon">Specialities</h2>
           <p class="product-dersc dersc">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna,
             non nisl tincidunt ut elementum turpis.
           </p>
         </div>
 
-        <div class="row row-cols-xl-3 row-cols-lg-3 row-cols-md-3 row-cols-3">
+        <div class="row row-cols-xl-3 row-cols-lg-3 row-cols-md-1 row-cols-1">
           <div class="col">
             <section class="product-item">
               <figure class="product-img">
@@ -263,19 +307,24 @@
             </section>
           </div>
         </div>
+        <div class="product-move-mobile">
+          <div class="move-item"></div>
+          <div class="move-item active"></div>
+          <div class="move-item"></div>
+        </div>
       </div>
     </div>
     <!-- project -->
     <div class="project">
       <div class="container">
-        <div class="row">
-          <div class="col-5">
-            <h2 class="project-title">
+        <div class="row row-mobile-project">
+          <div class="col-xl-5 col-12">
+            <h2 class="project-title title-comon">
               Take a look at <br />
               my recent projects
             </h2>
           </div>
-          <div class="col-4 offset-1">
+          <div class="col-xl-4 offset-xl-1 g-0 col-12">
             <p class="project-dersc dersc">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna,
               non nisl tincidunt ut elementum turpis.
@@ -283,7 +332,7 @@
           </div>
         </div>
         <div class="row project-row-2">
-          <div class="col-6">
+          <div class="col-xl-6 col-12">
             <article class="project-item">
               <section class="project-info">
                 <h3 class="project-name">Wally Website</h3>
@@ -296,7 +345,7 @@
               <img src="./images/project-ex1.png" alt="" class="project-ex" />
             </article>
           </div>
-          <div class="col-6">
+          <div class="col-xl-6 col-12">
             <article class="project-item">
               <section class="project-info">
                 <h3 class="project-name">Banking App</h3>
@@ -311,7 +360,7 @@
           </div>
         </div>
         <div class="row project-row-3">
-          <div class="col-6">
+          <div class="col-xl-6 col-12">
             <article class="project-item">
               <section class="project-info">
                 <h3 class="project-name">Web App</h3>
@@ -324,7 +373,7 @@
               <img src="./images/project-ex3.png" alt="" class="project-ex" />
             </article>
           </div>
-          <div class="col-6">
+          <div class="col-xl-6 col-12">
             <article class="project-item">
               <section class="project-info">
                 <h3 class="project-name">Oculus Website</h3>
@@ -340,5 +389,282 @@
         <button class="project-all">All Projects</button>
       </div>
     </div>
+
+    <!-- designersigner -->
+    <div class="designer">
+      <div class="container">
+        <div class="designer-top">
+          <span class="designer-top-highlight">Hey,,,,It’s Arif</span>
+          <img src="./images/designer-hi.png" alt="" class="dersigner-hi" />
+          <h2 class="designer-title title-comon">Interactive Designer</h2>
+          <p class="designer-dersc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna,
+            non nisl tincidunt ut elementum turpis.
+          </p>
+        </div>
+        <div class="row row-designer">
+          <div class="col-xl-2 offset-xl-2 col-3">
+            <div class="designer-info">
+              <span class="designer-number">08+</span>
+              <span class="designer-number-explain">Years Experience</span>
+            </div>
+          </div>
+          <div class="col-xl-2 offset-xl-1 col-3">
+            <div class="designer-info">
+              <span class="designer-number">21+</span>
+              <span class="designer-number-explain">Features & Awards</span>
+            </div>
+          </div>
+          <div class="col-xl-2 offset-xl-1 col-3">
+            <div class="designer-info">
+              <span class="designer-number">97%</span>
+              <span class="designer-number-explain">Clients Rating</span>
+            </div>
+          </div>
+        </div>
+        <video
+          controls
+          poster="./images/thumbnail-video.jpg"
+          src="./video/David Kushner - Daylight (Official Music Video).mp4"
+          class="intro"
+        ></video>
+      </div>
+    </div>
+
+    <!-- say -->
+    <div class="say">
+      <div class="container">
+        <h2 class="say-title title-comon">What people says</h2>
+        <p class="say-dersc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non
+          nisl tincidunt ut elementum turpis.
+        </p>
+        <p class="say-ex">
+          “Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa.”
+        </p>
+        <div class="say-info-person">
+          <img src="./images/images.jpeg" alt="" class="avt" />
+          <p class="say-name-person">Joe Elia</p>
+        </div>
+        <p class="say-info-person">User Interface Design at PCL Lab</p>
+        <div class="say-move">
+          <div class="move-item"></div>
+          <div class="move-item"></div>
+          <div class="move-item active"></div>
+          <div class="move-item"></div>
+          <div class="move-item"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- question -->
+
+    <div class="question">
+      <div class="container">
+        <h2 class="question-title title-comon">
+          A few questions <br />
+          clients normally ask me
+        </h2>
+        <article class="question-item">
+          <div class="section-answer">
+            <input type="checkbox" name="choice-question" id="checkanswer" />
+            <label for="checkanswer" class="question-section"
+              >What is your hourly rate?</label
+            >
+            <p class="answer">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna,
+              non nisl tincidunt ut elementum turpis.
+            </p>
+            <div class="anwer-underline"></div>
+          </div>
+        </article>
+        <article class="question-item">
+          <div class="section-answer">
+            <input type="checkbox" name="choice-question" id="checkanswer1" />
+            <label for="checkanswer1" class="question-section"
+              >What type of projects do you take on?</label
+            >
+            <p class="answer">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna,
+              non nisl tincidunt ut elementum turpis.
+            </p>
+            <div class="anwer-underline"></div>
+          </div>
+        </article>
+        <article class="question-item">
+          <div class="section-answer">
+            <input type="checkbox" name="choice-question" id="checkanswer2" />
+            <label for="checkanswer2" class="question-section"
+              >How do you charge for projects ?</label
+            >
+            <p class="answer">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna,
+              non nisl tincidunt ut elementum turpis.
+            </p>
+            <div class="anwer-underline"></div>
+          </div>
+        </article>
+        <article class="question-item">
+          <div class="section-answer">
+            <input type="checkbox" name="choice-question" id="checkanswer3" />
+            <label for="checkanswer3" class="question-section"
+              >What time-zone do you work in?<</label
+            >
+            <p class="answer">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna,
+              non nisl tincidunt ut elementum turpis.
+            </p>
+            <div class="anwer-underline"></div>
+          </div>
+        </article>
+        <article class="question-item">
+          <div class="section-answer">
+            <input type="checkbox" name="choice-question" id="checkanswer4" />
+            <label for="checkanswer4" class="question-section"
+              >How often can we communicate?
+            </label>
+            <p class="answer">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna,
+              non nisl tincidunt ut elementum turpis.
+            </p>
+            <div class="anwer-underline"></div>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <!-- atmos -->
+    <div class="atmos">
+      <div class="container">
+        <h2 class="atmos-title title-comon">My atmosphere</h2>
+        <p class="atmos-dersc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non
+          nisl tincidunt ut elementum turpis.
+        </p>
+        <a href="" class="atmos-link">@interaction_arif</a>
+        <div class="row row-atmos">
+          <div class="col-xl-4 col-12">
+            <img src="./images/atmos1.png" alt="" class="atmos-img" />
+          </div>
+          <div class="col-xl-4 col-12">
+            <img src="./images/atmos2.png" alt="" class="atmos-img" />
+          </div>
+          <div class="col-xl-4 col-12">
+            <img src="./images/atmos3.png" alt="" class="atmos-img" />
+          </div>
+        </div>
+        <div class="atmos-move">
+          <div class="move-item"></div>
+          <div class="move-item"></div>
+          <div class="move-item active"></div>
+          <div class="move-item"></div>
+          <div class="move-item"></div>
+        </div>
+      </div>
+    </div>
+    <!-- talk -->
+    <div class="talk">
+      <div class="container">
+        <div class="talk-body">
+          <div class="talk-info">
+            <img src="./images/talk.png" alt="" class="icon-talk" />
+            <h2 class="talk-title title-comon">Got a project? Let's talk</h2>
+            <p class="talk-dersc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              in quod quae quos ipsa enim eveniet nesciunt sunt quidem officia.
+            </p>
+            <button class="talk-btn">Book a call</button>
+          </div>
+
+          <span class="talk-decor">
+            <img
+              src="./images/talk-decor1.svg"
+              alt=""
+              class="talk-decor-item"
+            />
+            <img
+              src="./images/talk-decor-2.svg"
+              alt=""
+              class="talk-decor-item"
+            />
+            <img
+              src="./images/talk-decor-3.svg"
+              alt=""
+              class="talk-decor-item"
+            />
+          </span>
+        </div>
+      </div>
+    </div>
   </body>
+  <footer class="footer">
+    <div class="header-top footer-top">
+      <a href="" class="header-top-contact">
+        <img
+          src="./images/header-top-icon.png"
+          alt=""
+          class="header-top-icon"
+        />
+        <span class="header-top-link">hi@arif.interactive</span>
+      </a>
+
+      <img src="./images/face-web.png" alt="" class="logo" />
+
+      <ul class="header-top-option">
+        <li class="option-item">Projects</li>
+        <li class="option-item">Journey</li>
+        <li class="option-item">Service</li>
+        <li class="option-item">Contact</li>
+      </ul>
+    </div>
+    <div class="footer-underline"></div>
+    <div class="container">
+      <div class="footer-end">
+        <div class="footer-end-l end-info">
+          ©interactiveArif 2021. All rights reserved.
+        </div>
+        <div class="footer-end-r">
+          <div class="footer-end-r-1 end-info">Privacy Policy</div>
+          <div class="footer-end-r-2 end-info">Terms of Conditions</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- footer-mobile -->
+  <footer class="footer-mobile">
+    <div class="container">
+      <div class="footer-body">
+        <img src="./images/face-web.png" alt="" class="footer-mb-logo" />
+        <ul class="footer-mb-menu">
+          <li class="footer-mb-item">Projects</li>
+          <li class="footer-mb-item">Journey</li>
+          <li class="footer-mb-item">Service</li>
+          <li class="footer-mb-item">Contact</li>
+        </ul>
+        <div class="footer-mb-link">
+          <img
+            src="./images/header-top-icon.png"
+            alt=""
+            class="footer-link-img"
+          />
+          <a href="hi@arif.interactive" class="footer-links"
+            >hi@arif.interactive</a
+          >
+        </div>
+        <div class="footer-mb-info">
+          <div class="row-top">
+            <span class="row-top-icon">Privacy Policy</span>
+            <span class="row-top-icon row-top-strip">Terms of Conditions</span>
+          </div>
+          <div class="footer-row-underline"></div>
+          <p class="footer-mb-end">
+            ©interactiveArif 2021. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
 </html>
